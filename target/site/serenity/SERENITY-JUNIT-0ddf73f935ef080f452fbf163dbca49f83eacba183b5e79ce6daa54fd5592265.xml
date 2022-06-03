@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Employees API automation test" skipped="0" tests="4" time="12.11" timestamp="2022-06-03 06:00:09"><testcase name="The user can consult the data of an employee"/><testcase name="The user can consult the data of multiple employees"/><testcase name="The user can create an employee"><failure message="&#10;Expected: &lt;200&gt;&#10;     but: was &lt;429&gt;&#13;&#10;1 expectation failed.&#10;XML path data.message doesn't match.&#10;Expected: Successfully! Record has been added.&#10;  Actual: &#10;" type="java.lang.AssertionError">
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;&#13;
+1 expectation failed.
+XML path data.message doesn't match.
+Expected: Successfully! Record has been added.
+  Actual: 
+</failure><system-err>
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;&#13;
+1 expectation failed.
+XML path data.message doesn't match.
+Expected: Successfully! Record has been added.
+  Actual: 
+&#13;
+StepDefinitions.ApiAutomationStepDef.employee_creation_was_successful(ApiAutomationStepDef.java:83)&#13;
+✽.employee creation was successful(file:///C:/Automatizacion/Ejemplos/TestLuloApi/src/test/resources/features/ApiAutomation.feature:21)&#13;
+</system-err></testcase><testcase name="The user can delete an employee"><error message="The parameter &quot;message&quot; was used but not defined. Define parameters using the JsonPath.params(...) function" type="java.lang.AssertionError">The parameter "message" was used but not defined. Define parameters using the JsonPath.params(...) function</error><system-err>The parameter "message" was used but not defined. Define parameters using the JsonPath.params(...) function&#13;
+StepDefinitions.ApiAutomationStepDef.employee_removal_was_successful(ApiAutomationStepDef.java:102)&#13;
+✽.employee removal was successful(file:///C:/Automatizacion/Ejemplos/TestLuloApi/src/test/resources/features/ApiAutomation.feature:26)&#13;
+</system-err></testcase></testsuite>
