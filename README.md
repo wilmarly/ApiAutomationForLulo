@@ -37,7 +37,9 @@ http://dummy.restapiexample.com/public/api/v1/delete/2
 ## Running
 
 1. Cloning of repository
- `$ git clone url`
+   ```sh
+   $ git clone url
+    ```
 2. Install packages
    ```sh
    mvn install
